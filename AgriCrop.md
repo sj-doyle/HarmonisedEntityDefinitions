@@ -4,7 +4,7 @@ This entity contains a harmonised description of a generic crop. This entity is 
 
 &lt;AgriCrop&gt;&lt;Generic Attributes&gt;
 
-| Attribute Name | Attribute Type | Description                                                                   | Mandatory/Optional | May be Null |
+| Attribute Name | Attribute Type | Description                                                                   | Mandatory /Optional | May be Null |
 |----------------|----------------|-------------------------------------------------------------------------------|--------------------|-------------|
 | id             | Text           | Unique id of this instance of this entity.                                    | M                  | N           |
 | type           | Text           | Must be equal to "**AgriCrop**".                                              | M                  | N           |
@@ -15,7 +15,7 @@ This entity contains a harmonised description of a generic crop. This entity is 
 
 &lt;AgriCrop&gt;&lt;Entity Specific Attributes&gt;
 
-| Attribute Name     | Attribute Type     | Description                                                                                                                                                                                        | Mandatory/Optional | May be Null |
+| Attribute Name     | Attribute Type     | Description                                                                                                                                                                                        | Mandatory /Optional | May be Null |
 |--------------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------|
 | name               | Text               | The name of this crop.                                                                                                                                                                             | M                  | N           |
 | alternateName      | Text               | An alternative name for this crop.                                                                                                                                                                 | O                  | Y           |
