@@ -4,7 +4,7 @@ This entity contains a harmonised description of the conditions recorded within 
 
 &lt;AgriGreenHouse&gt;&lt;Generic Attributes&gt;
 
-| Attribute Name | Attribute Type | Description                                                                   | Mandatory/Optional | May be Null |
+| Attribute Name | Attribute Type | Description                                                                   | Mandatory /Optional | May be Null |
 |----------------|----------------|-------------------------------------------------------------------------------|--------------------|-------------|
 | id             | Text           | Unique id of this instance of this entity.                                    | M                  | N           |
 | type           | Text           | Must be equal to "**AgriGreenHouse**"                                         | M                  | N           |
@@ -15,7 +15,7 @@ This entity contains a harmonised description of the conditions recorded within 
 
 &lt;AgriGreenHouse&gt;&lt;Entity Specific Attributes&gt;
 
-| Attribute Name          | Attribute Type                | Description                                                                                                | Mandatory/Optional | May be Null |
+| Attribute Name          | Attribute Type                | Description                                                                                                | Mandatory /Optional | May be Null |
 |-------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------|--------------------|-------------|
 | refAgriParcel           | Reference                     | Reference to the Unique id of the AgriParcel to which this record relates.                                 | M                  | N           |
 | refWeatherObserved      | Reference                     | A JSON encoded sequence of characters that reference the unique id of the related weather observed record. | O                  | Y           |
