@@ -56,26 +56,11 @@ The JSON code can be downloaded from:
     "value": {
       "type": "Polygon",
       "coordinates": [
-        [
-          100,
-          0
-        ],
-        [
-          101,
-          0
-        ],
-        [
-          101,
-          1
-        ],
-        [
-          100,
-          1
-        ],
-        [
-          100,
-          0
-        ]
+        [100,0],
+        [101,0],
+        [101,1],
+        [100,1],
+        [100,0]
       ]
     },
     "type": "geo:json"
