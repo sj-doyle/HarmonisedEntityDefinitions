@@ -4,7 +4,7 @@ This entity contains a harmonised description of a Weather Forecast. This entity
 
 &lt;WeatherForecast&gt;&lt;Generic Attributes&gt;
 
-| Attribute Name | Attribute Type | Description                                                                   | Mandatory/Optional | May be Null |
+| Attribute Name | Attribute Type | Description                                                                   | Mandatory /Optional | May be Null |
 |----------------|----------------|-------------------------------------------------------------------------------|--------------------|-------------|
 | id             | Text           | Unique id of this instance of this entity.                                    | M                  | N           |
 | type           | Text           | Must be equal to "**WeatherForecast**".                                       | M                  | N           |
@@ -15,7 +15,7 @@ This entity contains a harmonised description of a Weather Forecast. This entity
 
 &lt;WeatherForecast&gt;&lt;Entity Specific Attributes&gt;
 
-| Attribute Name           | Attribute Type     | Description                                                                                                                                                                                                                                                                | Mandatory/Optional | May be Null |
+| Attribute Name           | Attribute Type     | Description                                                                                                                                                                                                                                                                | Mandatory /Optional | May be Null |
 |--------------------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------|
 | location                 | geo:json           | The geo:json encoded map location (point or polygon), of this weather forecast.                                                                                                                                                                                            | M                  | N           |
 | dateRetrieved            | DateTime           | The date and time the forecast was retrieved in ISO8601 UTC format.                                                                                                                                                                                                        | M                  | N           |
