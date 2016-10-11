@@ -4,7 +4,7 @@ This entity contains a harmonised description of a vehicleType it forms part of 
 
 &lt;VehicleType&gt;&lt;Generic Attributes&gt;
 
-| Attribute Name | Attribute Type | Description                                                                   | Mandatory/Optional | May be Null |
+| Attribute Name | Attribute Type | Description                                                                   | Mandatory /Optional | May be Null |
 |----------------|----------------|-------------------------------------------------------------------------------|--------------------|-------------|
 | id             | Text           | Unique id of this instance of this entity.                                    | M                  | N           |
 | type           | Text           | Must be equal to "**VehicleType**".                                           | M                  | N           |
@@ -15,7 +15,7 @@ This entity contains a harmonised description of a vehicleType it forms part of 
 
 &lt;VehicleType&gt;&lt;Entity Specific Attributes&gt;
 
-| Attribute Name | Attribute Type | Description                    | Mandatory/Optional | May be Null |
+| Attribute Name | Attribute Type | Description                    | Mandatory /Optional | May be Null |
 |----------------|----------------|--------------------------------|--------------------|-------------|
 | model          | Text           | The vehicle model identifier.  | M                  | N           |
 | category       | Text           | The vehicle class identifier.  | M                  | N           |
