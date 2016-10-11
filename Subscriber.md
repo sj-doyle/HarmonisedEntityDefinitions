@@ -4,7 +4,7 @@ This entity contains a harmonised description of a subscriber to a service. This
 
 &lt;Subscriber&gt;&lt;Generic Attributes&gt;
 
-| Attribute Name | Attribute Type | Description                                                                   | Mandatory/Optional | May be Null |
+| Attribute Name | Attribute Type | Description                                                                   | Mandatory /Optional | May be Null |
 |----------------|----------------|-------------------------------------------------------------------------------|--------------------|-------------|
 | id             | Text           | Unique id of this instance of this entity.                                    | M                  | N           |
 | type           | Text           | Must be equal to "**Subscribe**r".                                            | M                  | N           |
@@ -15,7 +15,7 @@ This entity contains a harmonised description of a subscriber to a service. This
 
 &lt;Subscriber&gt;&lt;Entity Specific Attributes&gt;
 
-| Attribute Name       | Attribute Type     | Description                                                                                                                                                  | Mandatory/Optional | May be Null |
+| Attribute Name       | Attribute Type     | Description                                                                                                                                                  | Mandatory /Optional | May be Null |
 |----------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------|
 | subscriptionId       | Reference          | A reference to the unique id of the subscription service.                                                                                                    | M                  | N           |
 | startDate            | DateTime           | The start date time for this subscription as an ISO8601 sequence of characters in UTC.                                                                       | O                  | Y           |
