@@ -4,7 +4,7 @@
 
 &lt;PointOfInterest&gt;&lt;Generic Attributes&gt;
 
-| Attribute Name | Attribute Type | Description                                                                   | Mandatory/Optional | May be Null |
+| Attribute Name | Attribute Type | Description                                                                   | Mandatory /Optional | May be Null |
 |----------------|----------------|-------------------------------------------------------------------------------|--------------------|-------------|
 | id             | Text           | Unique id of this instance of this entity.                                    | M                  | N           |
 | type           | Text           | Must be equal to "**PointOfInterest**".                                       | M                  | N           |
@@ -15,7 +15,7 @@
 
 &lt;PointOfInterest&gt;&lt;Entity Specific Attributes&gt;
 
-| Attribute Name | Attribute Type | Description                                                                                                                                                                                                                                                                                                      | Mandatory/Optional | May be Null |
+| Attribute Name | Attribute Type | Description                                                                                                                                                                                                                                                                                                      | Mandatory /Optional | May be Null |
 |----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------|
 | location       | geo:json       | The geo:json encoded map location (point or polygon), of this point of interest.                                                                                                                                                                                                                                 | M                  | N           |
 | category       | Array          | A JSON encoded array of one or more sequence of characters describing categories associated with this point of interest. A choice from: <br/><br/> **church, school, town hall, distinctiveBuilding, postOffice, shop, postBox, telephoneBox, pub, car park, lay-bye, speedCamera, restaurant, tourist attraction, other.** | M                  | Y           |
